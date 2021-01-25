@@ -1,12 +1,13 @@
 import faker from "faker"; 
+import { Mappable } from "./Map"; 
 
-export class Person {
+export class Person implements Mappable{
     name: string;   
     location: {
         lat: number;
         lng: number; 
     }
-
+    
     constructor() {
         this.name = `${faker.name.firstName()} ${faker.name.lastName()}`; 
         this.location = {

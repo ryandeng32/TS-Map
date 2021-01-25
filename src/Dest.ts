@@ -1,6 +1,7 @@
 import faker from "faker"; 
+import { Mappable } from "./Map"; 
 
-export class Dest {
+export class Dest implements Mappable {
     name: string;   
     location: {
         lat: number;

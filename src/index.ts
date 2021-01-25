@@ -1,11 +1,10 @@
 import { Person } from "./Person"; 
 import { Dest } from "./Dest"; 
+import { Map } from "./Map"; 
 
 const person = new Person(); 
 const dest = new Dest(); 
+const map = new Map(); 
 
-console.log(`name: ${person.name}`); 
-console.log(`lat: ${person.location.lat} ${person.location.lng}`); 
-
-console.log(`name: ${dest.name}`); 
-console.log(`lat: ${dest.location.lat} ${dest.location.lng}`); 
+map.addMarker(person); 
+map.addMarker(dest); 
