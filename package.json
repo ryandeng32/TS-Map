@@ -1,0 +1,26 @@
+{
+  "name": "ts-map",
+  "version": "1.0.0",
+  "description": "### Goal * Randomly generate a person and a place with location * Place the locations as markers on a map using the google maps API  * Click marker to show information * Calculate distance between markers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryandeng32/TS-Map.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryandeng32/TS-Map/issues"
+  },
+  "homepage": "https://github.com/ryandeng32/TS-Map#readme",
+  "dependencies": {
+    "faker": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.1.5",
+    "typescript": "^4.1.3"
+  }
+}
